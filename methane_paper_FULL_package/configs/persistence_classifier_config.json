@@ -1,0 +1,31 @@
+{
+  "config": {
+    "max_depth": 4,
+    "learning_rate": 0.03,
+    "n_estimators": 200,
+    "reg_lambda": 5.0,
+    "min_child_weight": 8,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "feature_cols": [
+    "n_obs_early",
+    "n_detect_early",
+    "detect_rate_early",
+    "span_days_early",
+    "first_gap_days",
+    "first_emission_early",
+    "max_emission_early",
+    "mean_emission_early",
+    "n_emission_readings_early"
+  ],
+  "window_k": 5,
+  "positive_class_rate": 0.13416815742397137,
+  "reported_metrics": {
+    "AUROC": "0.772\u00b10.042",
+    "AUPRC": "0.564\u00b10.055",
+    "Brier": "0.080\u00b10.006",
+    "nested_CV_AUROC": "0.761\u00b10.027",
+    "nested_CV_AUPRC": "0.577\u00b10.044"
+  }
+}

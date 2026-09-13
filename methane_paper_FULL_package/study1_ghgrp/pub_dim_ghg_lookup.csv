@@ -1,0 +1,15 @@
+gas_id,gas_code,gas_name,gas_label
+1,CO2,Carbon Dioxide,Carbon Dioxide (CO<sub>2</sub>)
+2,CH4,Methane,Methane (CH<sub>4</sub>)
+3,N2O,Nitrous Oxide,Nitrous Oxide (N<sub>2</sub>O)
+6,SF6,Sulfur Hexafluoride,Sulfur hexafluoride (SF<sub>6</sub>)
+7,CHF3,Fluoroform,HFC-23
+8,BIOCO2,Biogenic CO2,Biogenic Carbon Dioxide (CO<sub>2</sub>)
+9,NF3,Nitrogen Triflouride,Nitrogen trifluoride (NF<sub>3</sub>)
+10,HFC,HFCs,Hydrofluorocarbons (HFCs)
+11,PFC,PFCs,Perfluorocarbons (PFCs)
+12,HFE,HFEs,HFEs
+13,Other,Other,Other
+14,Other_L,Fluorinated GHG Production (CO<sub>2</sub>e),Fluorinated GHG Production (CO<sub>2</sub>e)
+15,Very_Short,Very Short-lived Compounds,Very Short-lived Compounds
+16,Other_Full,Other Fully Fluorinated GHGs,Other Fully Fluorinated GHGs

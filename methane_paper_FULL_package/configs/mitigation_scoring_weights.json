@@ -1,0 +1,21 @@
+{
+  "S1_emissions_only": {
+    "emission_rank": 1.0
+  },
+  "S2_persistence_aware": {
+    "emission_rank": 0.6,
+    "persistence_rank_pct": 0.4
+  },
+  "S3_accountability_aware": {
+    "emission_rank": 0.5,
+    "persistence_rank_pct": 0.3,
+    "mag_rank_pct": 0.2
+  },
+  "S4_justice_aware": {
+    "emission_rank": 0.4,
+    "persistence_rank_pct": 0.25,
+    "mag_rank_pct": 0.15,
+    "vulnerability_rank_pct": 0.2
+  },
+  "note": "All components are percentile ranks (0-1) of the underlying variable BEFORE weighting, not raw values."
+}

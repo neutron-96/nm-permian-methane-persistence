@@ -1,0 +1,45 @@
+{
+  "persistence_labeling": {
+    "min_reliable_observations": 5,
+    "min_ultra_persistent_observations": 10,
+    "intermittent_threshold": 0.25,
+    "persistent_threshold": 0.5,
+    "sensitivity_low": {
+      "min_reliable": 2,
+      "min_ultra": 5
+    },
+    "sensitivity_high": {
+      "min_reliable": 10,
+      "min_ultra": 15
+    }
+  },
+  "mag_taxonomy": {
+    "high_confidence_km": 1.0,
+    "medium_confidence_km": 5.0,
+    "low_confidence_km": 15.0,
+    "site_resolved_segments": [
+      "W-PROC",
+      "W-NGTC",
+      "W-LDC",
+      "W-UNSTG"
+    ],
+    "basin_aggregated_segments": [
+      "W-ONSH",
+      "W-GB"
+    ]
+  },
+  "study_region_bbox": {
+    "lon_min": -104.6,
+    "lon_max": -103.0,
+    "lat_min": 32.0,
+    "lat_max": 32.8,
+    "note": "lat_min raised from 31.4 to 32.0 to exclude Texas after border check"
+  },
+  "ch4_gwp_used": 25,
+  "exposure_buffer_radii_km": [
+    2,
+    5,
+    10
+  ],
+  "ghgrp_year_range": "2011-2023 (2024/2025 confirmed absent nationwide, not NM-specific)"
+}

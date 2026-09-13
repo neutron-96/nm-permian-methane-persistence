@@ -1,0 +1,36 @@
+{
+  "covariates": [
+    "detect_rate_early",
+    "span_days_early",
+    "first_gap_days",
+    "instr_ang",
+    "instr_other_small"
+  ],
+  "strata": [
+    "instr_av3"
+  ],
+  "n_sources": 509,
+  "reported_coefficients": {
+    "coef": {
+      "detect_rate_early": -0.2832,
+      "span_days_early": -0.0001,
+      "first_gap_days": 0.0002,
+      "instr_ang": -0.3321,
+      "instr_other_small": -0.3373
+    },
+    "exp(coef)": {
+      "detect_rate_early": 0.7534,
+      "span_days_early": 0.9999,
+      "first_gap_days": 1.0002,
+      "instr_ang": 0.7174,
+      "instr_other_small": 0.7137
+    },
+    "p": {
+      "detect_rate_early": 0.2637,
+      "span_days_early": 0.2832,
+      "first_gap_days": 0.3141,
+      "instr_ang": 0.0039,
+      "instr_other_small": 0.4241
+    }
+  }
+}

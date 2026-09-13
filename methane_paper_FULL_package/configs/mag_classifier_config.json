@@ -1,0 +1,27 @@
+{
+  "config": {
+    "max_depth": 4,
+    "learning_rate": 0.03,
+    "n_estimators": 200,
+    "reg_lambda": 5.0,
+    "min_child_weight": 8,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "feature_cols": [
+    "n_detect_early",
+    "detect_rate_early",
+    "span_days_early",
+    "first_gap_days"
+  ],
+  "reported_metrics": {
+    "directly_comparable": {
+      "AUROC": "0.822\u00b10.039",
+      "AUPRC": "0.420\u00b10.088"
+    },
+    "no_public_match": {
+      "AUROC": "0.798\u00b10.020",
+      "AUPRC": "0.500\u00b10.043"
+    }
+  }
+}
